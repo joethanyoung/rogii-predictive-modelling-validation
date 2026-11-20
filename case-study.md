@@ -14,7 +14,7 @@ I then checked two different questions. Could the available inputs flag a diffic
 
 I kept rows from each well together when constructing validation folds. I used field or cluster holdouts to probe transfer and checked for overlapping wells and inputs that would be unavailable at prediction time. I compared changes against the existing model on the same evaluation groups and examined how score differences varied with the group mix.
 
-The final selection followed the grouped validation evidence. The public and hidden scores later flipped the order of two candidates, including the selected model. This was a concrete case where the evaluation sample mattered to the decision.
+I selected the model favoured by grouped validation. The public leaderboard had favoured a different candidate. Kaggle's hidden evaluation placed the selected model ahead of that candidate.
 
 ## Check the workflow at the scale of the evaluation
 
